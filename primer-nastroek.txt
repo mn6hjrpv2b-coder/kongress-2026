@@ -1,0 +1,13 @@
+# Пример настроек сайта. Настоящие значения задаются на сервере в /etc/forum.env, не в репозитории.
+PORT=3000
+HOST=127.0.0.1
+DATA_DIR=/srv/forum/data
+SMTP_HOST=smtp.mail.ru
+SMTP_PORT=465
+SMTP_USER=ваш-ящик@mail.ru
+SMTP_PASS=пароль-для-внешнего-приложения
+MAIL_TO=ваш-ящик@mail.ru
+TELEGRAM_BOT_TOKEN=
+TELEGRAM_CHAT_ID=
+SETUP_SECRET=
+# TICKET_PRICE=2 500 ₽
